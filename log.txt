@@ -1,0 +1,8 @@
+Tue Dec 03 22:25:07 UYST 2013 :: Ppal.main :: Inicio de la generaci�n de la memoria organizacional.
+Tue Dec 03 22:25:07 UYST 2013 :: Ppal.main :: Leyendo archivos.
+Tue Dec 03 22:27:01 UYST 2013 :: Ppal.main :: Inicio de la generaci�n de la memoria organizacional.
+Tue Dec 03 22:27:01 UYST 2013 :: Ppal.main :: Leyendo archivos.
+Tue Dec 03 22:28:35 UYST 2013 :: Ppal.main :: Inicio de la generaci�n de la memoria organizacional.
+Tue Dec 03 22:31:52 UYST 2013 :: Ppal.main :: Leyendo archivos.
+Tue Dec 03 22:38:48 UYST 2013 :: Ppal.main :: Inicio de la generaci�n de la memoria organizacional.
+Tue Dec 03 22:38:48 UYST 2013 :: Ppal.main :: Leyendo archivos.

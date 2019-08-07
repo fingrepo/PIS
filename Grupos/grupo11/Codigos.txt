@@ -1,0 +1,121 @@
+﻿Formatos:
+	Documentos:		.pdf
+	Planillas:		.ods y .xls
+		(Nota, las planillas que estan el .xls SOLO pueden verse en Excel, ya que utilizan fórmulas que sólo pueden ser usadas en Excel.
+		Las planillas que están en .ods SOLO pueden verse en OpenOffice, LibreOffice o alguna otra aplicación que utilice el formato Open Document)
+	
+				
+				Entregables con diferente nomenclatura y/o composición del MUM
+				
+				
+			Número de Grupo
+Afectados:
+	Todos
+Descripción:
+	A todos los entregables se le cambió la nomenclatura con respecto al número de grupo.
+	En vez de tener la nomenclatura "...GXXv..." pasan a tener nomenclatura "...gXXv..." con "g" minúscula.
+	Esto se realizó para que haya mayor claridad a la hora de mirar el nombre del documento, ya que los códigos de los entregables están en mayúscula también,
+	por lo que se tornaba confuso determinar (con un simple vistazo) si la "g" mayúscula del grupo pertenecía al código o no. A su vez, de esta forma
+	mantiene consistencia con la nomenclatura del número de versión del documento, que utiliza una "v" minúscula. De este modo, toda la metadata del documento
+	mostrada en el nombre de éste sigue la misma nomenclatura (sucede al final del nombre, después del código, con una letra en minúscula).
+	Por ejemplo, "SCMPLAG11v1.0" pasó a ser "SCMPLAg11v1.0"
+	
+			Nomenclatura Semanal
+Afectados:	
+	GPICF
+	GPAR(-DIR,-CLI,-EQU)
+	GPISP
+	GPPIT
+	GPRAC
+	GPPDE
+	IMIIN
+	RQACT
+	RQDVC	
+	SCMPCC
+	SCMRV
+	SCMGC
+	SCMILB
+	SQADAP
+	SQARTF
+	SQAES
+	SQAIR
+	VRPVI
+	VRIVD
+	VREV
+	VRDAP
+Descripción:
+	Algunos documentos utilizan la misma nomenclatura, pero son claramente diferentes semana a semana. Utilizar el número de versión, para indicar el cambio de estos
+	documentos resultaba confuso, por lo que se divideron tales documentos en semanas. En cuanto a la nomenclatura, se le agregó "sX" después del código (con X siendo
+	la semana).
+	Por ejemplo, "SQAESg11v2.0" pasó a ser "SQAESs02g11v1.0"
+	
+			Actas de Reunión
+Afectados:
+	GPARD -> GPAR-DIR
+	GPARE -> GPAR-EQU
+Descripción:
+	Se le decidió cambiar la nomenclatura a estos elementos. Se decidió, que como son un mismo "tipo" de elemento, es decir la Acta de Reunión, el código de éstos
+	debería ser el mismo. Después se le agrega un "-", seguido de los integrantes o motivo de la reunión, en este caso DIR por "Director", EQU por "Equipo", CLI
+	por "Cliente", y cualquier otro subcódigo que sea necesario. Se utilizó esta nomenclatura para, no sólo tener una nomenclatura más entendible, si no para preveer
+	actas de otros tipos de reuniones (en donde sólo se agregaría un nuevo subcódigo), y para preveer muchas actas de reuniones con los mismos integrantes (por ejemplo
+	si hay 2 reuniones con el cliente en una semana en particular). Se le cambió la nomenclatura a los documentos GPARD y GPARE para que sean consistentes con el
+	resto.
+	
+			Varios documentos/planillas en uno
+Afectados:
+	GPDRI
+	GPEM
+	GPISP
+	SCMGC
+	SCMGCIU	
+Descripción:
+	En los casos de estos documentos, viene incluido no sólo un documento, sino que dos o más documentos o planillas. Por lo tanto se agregan bajo un archivo ZIP
+	con el nombre/código del elemento.	
+	
+			Gestión de Cambios
+Afectados:
+	SCMGC
+Descripción:
+	Se decidió utilizar un documento de gestión de cambios por cambio. Por lo tanto se cambió la nomenclatura de este elemento para que pueda ser único, y que su nombre
+	sea entendible. Se decidió agregarle al nombre del documento el código del documento o elemento de línea base al cual se solicitó el cambio, además de la semana
+	en la que surgió tal cambio.
+	
+			Nomenclatura OO
+Afectados:
+	IMOOPII -> IMPII
+Descripción:
+	Algunos documentos tenían la cadena "OO" en su nombre, pero se decidió que resultaba innecesario, ya que tales documentos son independientes de la plataforma
+	donde se desarrolla el proyecto (sea utilizando OO o GX, u otro)
+	
+			Encuesta de Satisfacción del Cliente
+Afectados:
+	COMENS -> COMENS-CLI-[GB,MS,PB]
+Descripción:
+	Se dividió el documento de Encuesta de Satisfacción del Cliente en varios documentos, uno por cliente a ser encuestado
+						
+				
+				
+				Entregables no Contemplados en el MUM
+				
+				
+	GPAR-CLI: Acta de Reunión con el Cliente
+		Corresponde al Acta de Reunión con el Cliente. Cuando se realizaba una reunión con el cliente por parte del Coordinador de Desarrollo y/o la Administradora, y
+		otros integrantes, se realizaba un acta de tal reunión para que los demás integrantes sepan de qué trató ésta, etc.
+		
+	GPLCUU: Líneas de Código por Caso de Uso
+		Esta planilla contiene las líneas de código de cada caso de uso implementado al final del proyecto, y a su vez contiene las líneas de código totales	
+		
+	SCMPCC: Planilla de Control de Cambios
+		Este elemento es una planilla donde se lleva un control de todos los cambios registrados sobre la línea base. Incluye qué cambios ocurrieron, cuando fueron
+		solicitados, e implementados, qué estado tienen actualmente (si está SOLICITADO, o APROBADO, IMPLEMENTADO, etc), y más información del cambio que puede verse
+		en el documento de Gestión de Cambios asociado
+	
+	SCMGCIU: Gestión de Cambios de Interfaz de Usuario
+		Este documento enumera los cambios solicitados y aprobados a la interfaz de usuario. Es una versión más informal del documento SCMGC para poder realizar un
+		Control de Cambios más ágil sobre la interfaz de usuario, sus diagramas y pautas.
+		
+	VRRV: Registro de Validaciones
+		Esta planilla registra las validaciones a realizar en cada campo de cada caso de uso	
+		
+	IPDC: Documento de Configuración
+		Este documento contiene pautas y guías para que el cliente pueda configurar el ambiente de producción de forma adecuada.

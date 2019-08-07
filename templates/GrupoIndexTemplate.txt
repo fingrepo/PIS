@@ -1,0 +1,34 @@
+<tr style='mso-yfti-irow:1'>
+  
+  <td width="17%" style='width:17.82%;background:silver;padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><span
+   style='font-size:10.0pt;font-family:Tahoma'><a href="RUTA_INFO_G">
+   GRUPO</a></span></p>
+  </td>
+
+  <td width="19%" style='width:19.8%;background:silver;padding:.75pt .75pt .75pt .75pt'>
+   <p class=MsoNormal align=center style='text-align:center'><span
+   style='font-size:10.0pt;font-family:Tahoma'>Proceso TIPO_PROCESO<o:p></o:p></span></p>
+  </td>
+  
+  <td width="39%" style='width:39.6%;background:silver;padding:.75pt .75pt .75pt .75pt'>
+  <p class=MsoNormal><span class=SpellE><span lang=ES-UY style='font-size:10.0pt;
+  font-family:Tahoma;mso-ansi-language:ES-UY'>Org</span></span><span
+  lang=ES-UY style='font-size:10.0pt;font-family:Tahoma;mso-ansi-language:ES-UY'>:
+  <span class=SpellE>ORGANIZACION</span></span></p>
+  <p class=MsoNormal><span lang=ES-UY style='font-size:10.0pt;font-family:Tahoma;
+  mso-ansi-language:ES-UY'>Cliente: NOM_CLIENTE </span></p>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Tahoma'>Director:
+  NOM_DIRECTOR</span></p>
+  <p class=MsoNormal><span style='font-size:10.0pt;font-family:Tahoma'>Producto: NOM_PRODUCTO
+  </span></p>
+  </td>
+  
+  <td width="22%" valign="middle" align="center" bgcolor="#C0C0C0">
+      <font face="Tahoma" size="2">
+	  <a href="RUTA_MG">ver</a>
+	     RUTA_PRESENTACIONES
+	     RUTA_PRODUCTO
+	  </font>
+  </td>
+ </tr>

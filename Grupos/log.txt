@@ -1,0 +1,18 @@
+Tue Dec 03 22:39:34 UYST 2013 :: Ppal.main :: Inicio de la generaci�n de la memoria organizacional.
+Tue Dec 03 22:39:34 UYST 2013 :: Ppal.main :: Leyendo archivos.
+Tue Dec 03 22:39:52 UYST 2013 :: Leer.lectura :: Iniciando lectura de archivos.
+Tue Dec 03 22:39:52 UYST 2013 :: Leer.lectura :: Error en el archivo /home/gonzalo/workspace/PISv2/Grupos/infoGruposEntrada/grupo1.txt en la l�nea 0.
+Tue Dec 03 22:40:06 UYST 2013 :: Ppal.main :: Creando p�gina de cada grupo.
+Tue Dec 03 22:40:07 UYST 2013 :: Leer.escribirHTML :: Escribiendo archivo del grupo 1.
+Tue Dec 03 22:40:07 UYST 2013 :: Leer.escribirHTML :: Error al escribir archivo del grupo 1.
+Tue Dec 03 22:42:55 UYST 2013 :: Ppal.main :: Inicio de la generaci�n de la memoria organizacional.
+Tue Dec 03 22:42:55 UYST 2013 :: Ppal.main :: Leyendo archivos.
+Tue Dec 03 22:42:55 UYST 2013 :: Leer.lectura :: Iniciando lectura de archivos.
+Tue Dec 03 22:42:55 UYST 2013 :: Leer.lectura :: Error en el archivo /home/gonzalo/workspace/PISv2/Grupos/infoGruposEntrada/grupo1.txt en la l�nea 0.
+Tue Dec 03 22:42:55 UYST 2013 :: Ppal.main :: Creando p�gina de cada grupo.
+Tue Dec 03 22:42:55 UYST 2013 :: Leer.escribirHTML :: Escribiendo archivo del grupo 1.
+Tue Dec 03 22:42:55 UYST 2013 :: Leer.escribirHTML :: Error al escribir archivo del grupo 1.
+Tue Dec 03 22:44:54 UYST 2013 :: Ppal.main :: Inicio de la generaci�n de la memoria organizacional.
+Tue Dec 03 22:44:54 UYST 2013 :: Ppal.main :: Leyendo archivos.
+Tue Dec 03 22:45:16 UYST 2013 :: Leer.lectura :: Iniciando lectura de archivos.
+Tue Dec 03 22:46:03 UYST 2013 :: Leer.lectura :: Error en el archivo /home/gonzalo/workspace/PISv2/Grupos/infoGruposEntrada/grupo1.txt en la l�nea 0.
